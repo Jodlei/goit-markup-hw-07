@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- ------- Шапка сайту   ------- -->
@@ -64,25 +64,33 @@
     </header>
     <!-- Унікальна частина сторінки -->
     <main>
-      <section class="portfolio">
+      <section class="section">
         <div class="container">
           <h1 hidden>Портфолио</h1>
           <!-- --------Кнопки навигации---------- -->
           <ul class="sorting__list list">
             <li class="sorting__item">
-              <button class="sorting__btn--current" type="button">Все</button>
+              <button class="sorting__btn--current button" type="button">
+                Все
+              </button>
             </li>
             <li class="sorting__item">
-              <button class="sorting__btn" type="button">Веб-сайты</button>
+              <button class="sorting__btn button" type="button">
+                Веб-сайты
+              </button>
             </li>
             <li class="sorting__item">
-              <button class="sorting__btn" type="button">Приложения</button>
+              <button class="sorting__btn button" type="button">
+                Приложения
+              </button>
             </li>
             <li class="sorting__item">
-              <button class="sorting__btn" type="button">Дизайн</button>
+              <button class="sorting__btn button" type="button">Дизайн</button>
             </li>
             <li class="sorting__item">
-              <button class="sorting__btn" type="button">Маркетинг</button>
+              <button class="sorting__btn button" type="button">
+                Маркетинг
+              </button>
             </li>
           </ul>
           <!-- ----------- Портфолио------------ -->
@@ -393,7 +401,7 @@
               placeholder="E-mail"
               class="subscribe__input"
             />
-            <button type="submit" class="subscribe__btn button">
+            <button type="submit" class="button__subscribe button">
               Подписаться
               <svg width="24" height="24" class="subscribe__icon">
                 <use href="./images/icon/sprite.svg#send-btn"></use>
